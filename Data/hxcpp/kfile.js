@@ -9,5 +9,5 @@ project.addFiles('Sources/src/resources/**.cpp');
 project.addFiles('Sources/src/__lib__.cpp', 'Sources/src/__boot__.cpp');
 project.addExcludes('Sources/src/__main__.cpp');
 project.addIncludeDirs('Sources/include');
-//project.addDefine('HX_SMART_STRINGS');
+project.addDefine('HX_SMART_STRINGS');
 resolve(project);

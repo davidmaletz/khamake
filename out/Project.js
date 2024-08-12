@@ -291,7 +291,7 @@ class Project {
                     }
                 }
             }
-            this.addShaders(dir + '/Sources/Shaders/**', {});
+            this.addShaders(dir + '/shaders/**', {});
         }
         return dir;
     }
